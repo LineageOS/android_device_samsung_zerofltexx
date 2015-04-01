@@ -1,0 +1,2 @@
+# Bluetooth
+vendor/firmware/bcm4358A3_V0031.0048.hcd

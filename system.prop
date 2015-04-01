@@ -1,0 +1,8 @@
+#
+# system.prop for zerofltemtr
+#
+rild.libpath=/system/lib64/libsec-ril.so
+rild.libargs=-d /dev/ttyS0
+
+telephony.lteOnGsmDevice=1
+ro.telephony.default_network=9
