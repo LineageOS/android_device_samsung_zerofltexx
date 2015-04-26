@@ -21,4 +21,4 @@ $(call inherit-product-if-exists, vendor/samsung/zerofltemtr/zerofltemtr-vendor.
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltemtr/overlay
 
 # Inherit from zeroflte-common
-$(call inherit-product, device/samsung/zeroflte-common/zeroflte-common.mk)
+$(call inherit-product, device/samsung/zeroflte-common/zeroflte.mk)
