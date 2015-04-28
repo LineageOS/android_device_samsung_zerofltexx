@@ -25,3 +25,6 @@ include device/samsung/zeroflte-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerofltemtr,zeroflte
+
+# Kernel
+TARGET_PREBUILT_KERNEL := device/samsung/zerofltemtr/kernel
