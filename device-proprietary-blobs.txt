@@ -4,3 +4,5 @@ vendor/firmware/bcm4358A3_V0031.0048.hcd
 # Radio
 lib/libril.so
 lib64/libril.so
+lib/libsec-ril.so
+lib64/libsec-ril.so
