@@ -21,7 +21,7 @@
 #
 
 # inherit from common gsm zeroflte
-include device/samsung/zeroflte-common/BoardConfigCommon.mk
+include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerofltemtr,zeroflte

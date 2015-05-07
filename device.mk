@@ -20,8 +20,8 @@ $(call inherit-product-if-exists, vendor/samsung/zerofltemtr/zerofltemtr-vendor.
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltemtr/overlay
 
-# Inherit from zeroflte-common
-$(call inherit-product, device/samsung/zeroflte-common/zeroflte.mk)
+# Inherit from zero-common
+$(call inherit-product, device/samsung/zero-common/zero-common.mk)
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
     LOCAL_KERNEL := device/samsung/zerofltemtr/kernel
