@@ -22,13 +22,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltemtr/overlay
 
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
-
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/samsung/zerofltemtr/kernel
-else
-    LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel \
-    device/samsung/zerofltemtr/dt.img:dt.img
