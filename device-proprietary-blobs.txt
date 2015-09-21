@@ -1,5 +1,14 @@
+# Audio
+lib/lib_DNSe_EP_ver216b.so
+lib/lib_DNSe_NRSS_ver226.so
+
 # Bluetooth
-vendor/firmware/bcm4358A3_V0031.0048.hcd
+vendor/firmware/bcm4358A0_V0009.0033.hcd
+vendor/firmware/bcm4358A1_V0041.0075.hcd
+vendor/firmware/bcm4358A3_V0036.0054.hcd
+
+# Mobicore
+app/mcRegistry/ffffffff000000000000000000000028.tlbin
 
 # Radio
 lib/libril.so
