@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The Android Open Kang Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltemtr,zeroflte
+TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7420-zeroflte_mtr_defconfig
+TARGET_KERNEL_CONFIG := exynos7420-zeroflte_defconfig

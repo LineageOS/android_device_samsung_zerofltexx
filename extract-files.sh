@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=zerofltemtr
+export DEVICE=zeroflte
 export VENDOR=samsung
 ./../zero-common/extract-files.sh $@

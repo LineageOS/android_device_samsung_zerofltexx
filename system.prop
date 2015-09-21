@@ -1,5 +1,5 @@
 #
-# system.prop for zerofltemtr
+# system.prop for zeroflte
 #
 rild.libpath=/system/lib64/libsec-ril.so
 rild.libargs=-d /dev/ttyS0

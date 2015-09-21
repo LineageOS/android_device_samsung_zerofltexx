@@ -1,2 +1,2 @@
-add_lunch_combo cm_zerofltemtr-eng
-add_lunch_combo cm_zerofltemtr-userdebug
+add_lunch_combo cm_zeroflte-eng
+add_lunch_combo cm_zeroflte-userdebug
