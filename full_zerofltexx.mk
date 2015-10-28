@@ -14,22 +14,22 @@
 
 #
 # This file is the build configuration for a full Android
-# build for zeroflte hardware. This cleanly combines a set of
+# build for zerofltexx hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and zeroflte, hence its name.
+# lines, full and zerofltexx, hence its name.
 #
 
 PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, device/samsung/zeroflte/device.mk)
+$(call inherit-product, device/samsung/zerofltexx/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_zerflte
+PRODUCT_NAME := zerofltexx
 PRODUCT_DEVICE := zeroflte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung

@@ -20,11 +20,11 @@
 # definition file).
 #
 
-# inherit from common gsm zeroflte
+# inherit from zero-common
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7420-zeroflte_defconfig
+TARGET_KERNEL_CONFIG := exynos7420-zerofltexx_defconfig
