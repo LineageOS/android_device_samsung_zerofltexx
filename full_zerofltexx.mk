@@ -32,5 +32,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 PRODUCT_NAME := zerofltexx
 PRODUCT_DEVICE := zeroflte
 PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-G920F
