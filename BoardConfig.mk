@@ -31,4 +31,3 @@ TARGET_KERNEL_CONFIG := exynos7420-zerofltexx_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
-BOARD_MKBOOTIMG_ARGS += --dt device/samsung/zerofltexx/dt.img
