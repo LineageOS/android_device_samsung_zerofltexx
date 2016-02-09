@@ -11,7 +11,5 @@ vendor/firmware/bcm4358A3_V0036.0054.hcd
 app/mcRegistry/ffffffff000000000000000000000028.tlbin
 
 # Radio
-lib/libril.so
-lib64/libril.so
 lib/libsec-ril.so
 lib64/libsec-ril.so
