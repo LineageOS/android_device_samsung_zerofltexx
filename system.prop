@@ -14,3 +14,7 @@ ro.ril.gprsclass=10
 # Audio
 af.fast_track_multiplier=1
 audio_hal.force_wideband=true
+
+
+# NFC
+ro.nfc.sec_hal=true
