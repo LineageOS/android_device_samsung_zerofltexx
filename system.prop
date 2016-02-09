@@ -10,3 +10,7 @@ ro.use_data_netmgrd=false
 persist.data.netmgrd.qos.enable=false
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
+
+# Audio
+af.fast_track_multiplier=1
+audio_hal.force_wideband=true
