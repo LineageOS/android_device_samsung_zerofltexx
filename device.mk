@@ -20,5 +20,9 @@ $(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltexx/overlay
 
+# Carrier init
+PRODUCT_PACKAGES += \
+    init.carrier.rc
+
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
