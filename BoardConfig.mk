@@ -27,7 +27,7 @@ include device/samsung/zero-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_zerofltexx_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
