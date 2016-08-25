@@ -21,4 +21,4 @@ export DEVICE=zerofltexx
 export DEVICE_COMMON=zero-common
 export VENDOR=samsung
 
-./../$DEVICE_COMMON/extract-files.sh $@
+./../$DEVICE_COMMON/setup-makefiles.sh $@
