@@ -1,4 +1,4 @@
-# Initialise device config
+# Initialize device config
 $(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
