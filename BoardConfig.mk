@@ -1,4 +1,5 @@
 # Copyright (C) 2015 The CyanogenMod Project
+            (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,7 +31,7 @@ TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := lineageos_zerofltexx_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
