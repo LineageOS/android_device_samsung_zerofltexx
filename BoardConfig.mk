@@ -23,6 +23,11 @@
 # inherit from zero-common
 include device/samsung/zero-common/BoardConfigCommon.mk
 
+LOCAL_PATH := device/samsung/zerofltexx
+
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 
