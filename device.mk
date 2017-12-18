@@ -23,9 +23,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     init.carrier.rc
 
-# cpboot daemon
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ril/sbin/cbd:root/sbin/cbd
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
