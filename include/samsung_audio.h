@@ -81,7 +81,13 @@
  * A good value to start with is 10ms:
  *
  * #define DSP_POWEROFF_DELAY 10 * 1000
+ *
+ #define DSP_POWEROFF_DELAY 0*/
+
+ /*
+ * ril_set_call_clock_sync() may cause unknown problems with the call-mic.
+ * Uncomment this to disable the support for it.
  */
-/* #define DSP_POWEROFF_DELAY 0 */
+#define DISABLE_CALL_CLOCK_SYNC
 
 #endif // SAMSUNG_AUDIO_H
