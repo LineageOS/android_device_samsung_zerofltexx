@@ -17,6 +17,8 @@
 #ifndef SAMSUNG_AUDIO_H
 #define SAMSUNG_AUDIO_H
 
+#include <telephony/ril.h>
+
 /*
  * Sound card specific defines.
  *
@@ -44,13 +46,11 @@
 #define SOUND_CAPTURE_VOICE_DEVICE 1
 
 /* Wideband AMR callback */
-#ifndef RIL_UNSOL_SNDMGR_WB_AMR_REPORT
-#ifdef RIL_UNSOL_WB_AMR_STATE
+#ifdef RIL_UNSOL_SNDMGR_WB_AMR_REPORT
+  #undef RIL_UNSOL_SNDMGR_WB_AMR_REPORT
+#endif
+
 #define RIL_UNSOL_SNDMGR_WB_AMR_REPORT RIL_UNSOL_WB_AMR_STATE
-#else
-#define RIL_UNSOL_SNDMGR_WB_AMR_REPORT 0
-#endif
-#endif
 
 /* DSP offload */
 #define SOUND_COMPRESS_OFFLOAD_DEVICE 11
