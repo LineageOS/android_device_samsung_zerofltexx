@@ -72,7 +72,7 @@
 	<ctl name="ISRC4DEC1 Input" value="DSP5.1" />
 	<ctl name="ISRC4DEC2 Input" value="DSP5.1" />
 	<ctl name="ISRC4INT1 Input" value="AIF4RX1" />
-	<ctl name="ISRC4INT2 Input" value="AIF4RX2" />		
+	<ctl name="ISRC4INT2 Input" value="AIF4RX2" />
 
 	<ctl name="DSP5 Aux 2" value="ISRC4INT1" />
 	<ctl name="DSP5 Aux 3" value="ISRC4INT2" />
@@ -392,7 +392,7 @@
 		<path name="mute-headset" />
 		<path name="media-bt-sco-headset" />
 	</path>
-	
+
 	<path name="wificall_nb-bt-ble-headset">
 		<path name="mute-headset" />
 		<path name="media-bt-sco-headset" />
@@ -467,7 +467,7 @@
 		<path name="mute-headset" />
 		<path name="media-bt-sco-headset" />
 	</path>
-	
+
 	<path name="wificall_wb-bt-ble-headset">
 		<path name="mute-headset" />
 		<path name="media-bt-sco-headset" />
@@ -804,7 +804,7 @@
 		<path name="incall_nb-bt-sco-headset" />
 	</path>
 
-	<!-- NB/HANDOVER -->	
+	<!-- NB/HANDOVER -->
 	<path name="incall_nb_handover-handset">
 		<path name="incall_nb-handset" />
 	</path>
@@ -861,7 +861,7 @@
 		<ctl name="HPOUT1 Digital Switch" value="1" />
 	</path>
 
-	<!-- NB/EXTRA_VOL -->	
+	<!-- NB/EXTRA_VOL -->
 	<path name="incall_nb_extra_vol-handset">
 		<path name="incall_nb-handset" />
 	</path>
@@ -870,7 +870,7 @@
 		<path name="incall_nb-speaker" />
 	</path>
 
-	<!-- NB/EXTRA_VOL/HANDOVER -->	
+	<!-- NB/EXTRA_VOL/HANDOVER -->
 	<path name="incall_nb_extra_vol_handover-handset">
 		<path name="incall_nb-handset" />
 	</path>
@@ -975,7 +975,7 @@
 		<path name="incall_wb-bt-sco-headset" />
 	</path>
 
-	<!-- WB/EXTRA_VOL -->	
+	<!-- WB/EXTRA_VOL -->
 	<path name="incall_wb_extra_vol-handset">
 		<path name="incall_wb-handset" />
 	</path>
@@ -1027,7 +1027,7 @@
 		<path name="incall_nb_handover-headphone" />
 	</path>
 
-	<!-- VoLTE CP NB/EXTRA_VOL -->	
+	<!-- VoLTE CP NB/EXTRA_VOL -->
 	<path name="volte_cp_nb_extra_vol-handset">
 		<path name="incall_nb-handset" />
 	</path>
@@ -1036,7 +1036,7 @@
 		<path name="incall_nb-speaker" />
 	</path>
 
-	<!-- VoLTE CP NB/EXTRA_VOL/HANDOVER -->	
+	<!-- VoLTE CP NB/EXTRA_VOL/HANDOVER -->
 	<path name="volte_cp_nb_extra_vol_handover-handset">
 		<path name="incall_nb-handset" />
 	</path>
@@ -1095,7 +1095,7 @@
 		<path name="incall_wb-bt-sco-headset" />
 	</path>
 
-	<!-- VoLTE CP WB/EXTRA_VOL -->	
+	<!-- VoLTE CP WB/EXTRA_VOL -->
 	<path name="volte_cp_wb_extra_vol-handset">
 		<path name="incall_wb-handset" />
 	</path>
@@ -1624,7 +1624,7 @@
 		<path name="mute-speaker" />
 		<path name="media-bt-sco-headset-in" />
 	</path>
-	
+
 	<path name="wificall_nb-bt-ble-headset-in">
 		<path name="mute-speaker" />
 		<path name="media-mic" />
@@ -1695,7 +1695,7 @@
 		<path name="mute-speaker" />
 		<path name="media-bt-sco-headset-in" />
 	</path>
-	
+
 	<path name="wificall_wb-bt-ble-headset-in">
 		<path name="mute-speaker" />
 		<path name="media-mic" />
@@ -2155,7 +2155,7 @@
 		<ctl name="ISRC2INT1 Input" value="AIF3RX1" />
 		<ctl name="ISRC2INT2 Input" value="AIF3RX2" />
 		<ctl name="ASRC1IN1L Input" value="ISRC2INT1" />
-		<ctl name="ASRC1IN1R Input" value="ISRC2INT2" />	
+		<ctl name="ASRC1IN1R Input" value="ISRC2INT2" />
 		<ctl name="AIF2TX1 Input 1" value="ASRC1IN1L" />
 		<ctl name="AIF2TX2 Input 1" value="ASRC1IN1R" />
 		<!-- Call recording route -->
@@ -2168,7 +2168,7 @@
 		<path name="incall_nb-headphone-mic" />
 	</path>
 
-	<!-- WB/EXTRA_VOL -->	
+	<!-- WB/EXTRA_VOL -->
 	<path name="incall_wb_extra_vol-handset-mic">
 		<path name="incall_wb-handset-mic" />
 	</path>
@@ -2789,7 +2789,7 @@
 		<ctl name="AIF3TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
 	</path>
-	
+
 	<path name="gain-wificall_nb-bt-ble-headset">
 		<ctl name="AIF3TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
@@ -2851,7 +2851,7 @@
 		<ctl name="AIF3TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
 	</path>
-	
+
 	<path name="gain-wificall_wb-bt-ble-headset">
 		<ctl name="AIF3TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
@@ -3422,7 +3422,7 @@
 		<param name="DSP4 XM f010:1" value="0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 4 0 0 22 168 0 0 23 112 0 0 30 120 0 0 19 36 0 0 16 154 0 0 0 8 0 0 0 8 0 0 0 2 0 0 0 32 0 0 2 0 0 0 112 0 0 0 96 0 0 0 112 0 0 0 48 0 0 0 80 0 0 0 0 1" />
 	</path>
 
-	<!-- NB/EXTRA_VOL Volume-->	
+	<!-- NB/EXTRA_VOL Volume-->
 	<path name="gain-incall_nb_extra_vol-handset">
 		<ctl name="HPOUT3L Input 1 Volume" value="32" />
 		<ctl name="HPOUT3R Input 1 Volume" value="32" />
@@ -3441,7 +3441,7 @@
 		<param name="DSP4 XM f010:1" value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3" />
 	</path>
 
-	<!-- NB/EXTRA_VOL/HANDOVER Volume-->	
+	<!-- NB/EXTRA_VOL/HANDOVER Volume-->
 	<path name="gain-incall_nb_extra_vol_handover-handset">
 		<ctl name="HPOUT3L Input 1 Volume" value="32" />
 		<ctl name="HPOUT3R Input 1 Volume" value="32" />
@@ -3509,7 +3509,7 @@
 		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
 	</path>
 
-	<!-- WB/EXTRA_VOL Volume-->	
+	<!-- WB/EXTRA_VOL Volume-->
 	<path name="gain-incall_wb_extra_vol-handset">
 		<ctl name="HPOUT3L Input 1 Volume" value="32" />
 		<ctl name="HPOUT3R Input 1 Volume" value="32" />
@@ -3644,14 +3644,14 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN1L Digital Volume" value="128" />
-		<ctl name="LHPF1 Input 1 Volume" value="32" />
+		<ctl name="IN1L Digital Volume" value="158" />
+		<ctl name="LHPF1 Input 1 Volume" value="40" />
 	</path>
 
 	<path name="gain-media-headset-mic">
 		<ctl name="IN2L Volume" value="30" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="LHPF1 Input 1 Volume" value="32" />
+		<ctl name="IN2L Digital Volume" value="148" />
+		<ctl name="LHPF1 Input 1 Volume" value="36" />
 	</path>
 
 	<path name="gain-media-headphone-mic">
@@ -3983,7 +3983,7 @@
 		<ctl name="AIF1TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF1TX2 Input 1 Volume" value="32" />
 	</path>
-	
+
 	<path name="gain-wificall_nb-bt-ble-headset-in">
 		<ctl name="IN1L Digital Volume" value="140" />
 		<ctl name="LHPF1 Input 1 Volume" value="32" />
@@ -4034,7 +4034,7 @@
 		<ctl name="AIF1TX1 Input 1 Volume" value="32" />
 		<ctl name="AIF1TX2 Input 1 Volume" value="32" />
 	</path>
-	
+
 	<path name="gain-wificall_wb-bt-ble-headset-in">
 		<ctl name="IN1L Digital Volume" value="140" />
 		<ctl name="LHPF1 Input 1 Volume" value="32" />
