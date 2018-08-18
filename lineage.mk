@@ -13,3 +13,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_NAME := lineage_zerofltexx
 PRODUCT_DEVICE := zerofltexx
+BUILD_FINGERPRINT := samsung/zerofltexx/zeroflte:7.0/NRD90M/G920FXXU5EQG3:user/release-keys
