@@ -2538,35 +2538,35 @@
 	<!-- Output volume stage -->
 	<!-- media playback volume -->
 	<path name="gain-media-handset">
-		<ctl name="HPOUT3L Input 1 Volume" value="31" />
-		<ctl name="HPOUT3R Input 1 Volume" value="31" />
+		<ctl name="HPOUT3L Input 1 Volume" value="38" />
+		<ctl name="HPOUT3R Input 1 Volume" value="38" />
 	</path>
 
 	<path name="gain-media-speaker">
-		<ctl name="DSP5L Input 1 Volume" value="26" />
-		<ctl name="DSP5L Input 2 Volume" value="26" />
-		<ctl name="AIF4TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF4TX2 Input 1 Volume" value="32" />
+		<ctl name="DSP5L Input 1 Volume" value="34" />
+		<ctl name="DSP5L Input 2 Volume" value="34" />
+		<ctl name="AIF4TX1 Input 1 Volume" value="40" />
+		<ctl name="AIF4TX2 Input 1 Volume" value="40" />
 	</path>
 
 	<path name="gain-media-headset">
 		<ctl name="Noise Gate Switch" value="0" />
-		<ctl name="HPOUT1L Impedance Volume" value="113" />
-		<ctl name="HPOUT1R Impedance Volume" value="113" />
-		<ctl name="HPOUT1L Input 1 Volume" value="32" />
-		<ctl name="HPOUT1R Input 1 Volume" value="32" />
+		<ctl name="HPOUT1L Impedance Volume" value="120" />
+		<ctl name="HPOUT1R Impedance Volume" value="120" />
+		<ctl name="HPOUT1L Input 1 Volume" value="40" />
+		<ctl name="HPOUT1R Input 1 Volume" value="40" />
 	</path>
 
 	<path name="gain-media-speaker-headset">
-		<ctl name="DSP5L Input 1 Volume" value="26" />
-		<ctl name="DSP5L Input 2 Volume" value="26" />
-		<ctl name="AIF4TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF4TX2 Input 1 Volume" value="32" />
+		<ctl name="DSP5L Input 1 Volume" value="34" />
+		<ctl name="DSP5L Input 2 Volume" value="34" />
+		<ctl name="AIF4TX1 Input 1 Volume" value="40" />
+		<ctl name="AIF4TX2 Input 1 Volume" value="40" />
 		<ctl name="Noise Gate Switch" value="0" />
-		<ctl name="HPOUT1L Impedance Volume" value="60" />
-		<ctl name="HPOUT1R Impedance Volume" value="60" />
-		<ctl name="HPOUT1L Input 1 Volume" value="32" />
-		<ctl name="HPOUT1R Input 1 Volume" value="32" />
+		<ctl name="HPOUT1L Impedance Volume" value="68" />
+		<ctl name="HPOUT1R Impedance Volume" value="68" />
+		<ctl name="HPOUT1L Input 1 Volume" value="40" />
+		<ctl name="HPOUT1R Input 1 Volume" value="40" />
 	</path>
 
 	<path name="gain-media-bt-sco-headset">
