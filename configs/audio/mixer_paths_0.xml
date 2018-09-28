@@ -2545,16 +2545,16 @@
 	<path name="gain-media-speaker">
 		<ctl name="DSP5L Input 1 Volume" value="26" />
 		<ctl name="DSP5L Input 2 Volume" value="26" />
-		<ctl name="AIF4TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF4TX2 Input 1 Volume" value="32" />
+		<ctl name="AIF4TX1 Input 1 Volume" value="36" />
+		<ctl name="AIF4TX2 Input 1 Volume" value="36" />
 	</path>
 
 	<path name="gain-media-headset">
 		<ctl name="Noise Gate Switch" value="0" />
 		<ctl name="HPOUT1L Impedance Volume" value="113" />
 		<ctl name="HPOUT1R Impedance Volume" value="113" />
-		<ctl name="HPOUT1L Input 1 Volume" value="32" />
-		<ctl name="HPOUT1R Input 1 Volume" value="32" />
+		<ctl name="HPOUT1L Input 1 Volume" value="40" />
+		<ctl name="HPOUT1R Input 1 Volume" value="40" />
 	</path>
 
 	<path name="gain-media-speaker-headset">
